@@ -35,9 +35,16 @@ $ onceover run helloworld --name Wednesday
 INFO   -> Hello, Wednesday!
 ```
 
+## Integration highlights
+* [Onceover compatibility definition](https://github.com/declarativesystems/onceover-helloworld/blob/master/onceover-helloworld.gemspec#L27)
+* [Library self-registration](https://github.com/declarativesystems/onceover-helloworld/blob/master/lib/onceover/helloworld.rb#L2)
+* [Command definition](https://github.com/declarativesystems/onceover-helloworld/blob/master/lib/onceover/helloworld/cli.rb#L9)
+* [Command self-registration](https://github.com/declarativesystems/onceover-helloworld/blob/master/lib/onceover/helloworld/cli.rb#L34)
+
+
 ## Development
 
-Finished - hopefully this makes writing your own plugins for Onceover easier :)
+Finished (for now) - hopefully this makes writing your own plugins for Onceover easier :)
 
 ## Contributing
 
